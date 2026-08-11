@@ -31,7 +31,7 @@ COPY --from=build /out/usr/ /usr/
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     ffmpeg gstreamer1.0-libav gstreamer1.0-plugins-bad \
-    gstreamer1.0-plugins-good gstreamer1.0-pulseaudio \
+    gstreamer1.0-pipewire gstreamer1.0-plugins-good gstreamer1.0-pulseaudio \
     intel-media-va-driver libpulse0 libqt6dbus6 libqt6multimedia6 \
     libqt6network6 libqt6widgets6 libwayland-client0 libx11-6 \
     pipewire qt6-qpa-plugins && \
