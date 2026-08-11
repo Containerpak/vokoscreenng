@@ -3,7 +3,7 @@
   "manifest_version": "2.0",
   "name": "vokoscreenNG",
   "description": "Record the desktop, a window or a selected area with audio and camera support.",
-  "version": "4.4.0",
+  "version": "4.10.0",
   "image": "ghcr.io/containerpak/vokoscreenng:main",
   "binaries": ["/usr/bin/vokoscreenNG"],
   "desktop_entries": ["/usr/share/applications/vokoscreenNG.desktop"],
