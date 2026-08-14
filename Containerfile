@@ -1,4 +1,4 @@
-FROM ghcr.io/containerpak/mesa-sdk:main AS build
+FROM ghcr.io/containerpak/mesa64-sdk:main AS build
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG VOKOSCREEN_URL=https://github.com/vkohaupt/vokoscreenNG/archive/f851473514be1054da70e037fce528b8e681f158.tar.gz
@@ -22,7 +22,7 @@ RUN apt-get update && \
     install -Dm644 applications/vokoscreenNG.png \
     /out/usr/share/icons/hicolor/256x256/apps/vokoscreenNG.png
 
-FROM ghcr.io/containerpak/mesa:main
+FROM ghcr.io/containerpak/mesa64:main
 
 ARG DEBIAN_FRONTEND=noninteractive
 
