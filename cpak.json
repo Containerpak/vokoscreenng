@@ -4,7 +4,7 @@
   "name": "vokoscreenNG",
   "description": "Record the desktop, a window or a selected area with audio and camera support.",
   "version": "4.10.0",
-  "image": "ghcr.io/containerpak/vokoscreenng@sha256:96bbe323f23d823cd6d260b5f5d75152c882bf55f36d1985e29733b132492c51",
+  "image": "ghcr.io/containerpak/vokoscreenng@sha256:af7a95f5bc85b61834614b831fb5a6f7924791e1a844bac35b0ef25e5398b7f2",
   "binaries": [
     "/usr/bin/vokoscreenNG"
   ],
